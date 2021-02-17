@@ -2,7 +2,6 @@
 	{{pagination}}
 </div>
 
-{{#get "posts" filter="tags:-[Projects]"}}
 {{#foreach posts visibility="all"}}
 
 <article class="{{post_class}}">
@@ -22,6 +21,5 @@
 </article>
 
 {{/foreach}}
-{{/get}}
 
 {{pagination}}
