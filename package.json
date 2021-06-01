@@ -2,10 +2,10 @@
   "name": "attila",
   "description": "Ghost Theme",
   "demo": "https://attila.peteramende.de",
-  "version": "2.6.0",
+  "version": "3.1.1",
   "engines": {
-    "ghost": ">=3.0.0",
-    "ghost-api": "v3"
+    "ghost": ">=4.0.0",
+    "ghost-api": "v4"
   },
   "license": "MIT",
   "screenshots": {
@@ -34,8 +34,8 @@
     "url": "https://github.com/zutrinken/attila.git"
   },
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "grunt": "^1.0.4",
+    "autoprefixer": "^10.2.5",
+    "grunt": "^1.3.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-copy": "^1.0.0",

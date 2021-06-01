@@ -2,7 +2,9 @@
 
 A content focused responsive theme for [Ghost](https://github.com/tryghost/ghost/). See a demo at: [attila.peteramende.de](https://attila.peteramende.de/)
 
-If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zutrinken).
+## ♥️ Support
+
+Maintaining this project takes a lot of time. You can [buy me a drink](https://paypal.me/zutrinken) if you enjoy using Attila. Cheers 🍻
 
 ## 📷 Screenshots
 
@@ -17,45 +19,43 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 * Code highlight including line numbers
 * Disqus support
 * Member menu buttons
+* Ghost accent color
 
 ## 🌍 Localization
 
-* __English__
-* __German__
-* __Spanish__
-* __French__ by [robink](https://github.com/robink)
-* __Italian__ by [fmaida](https://github.com/fmaida)
-* __Norwegian__ by [arthurnoerve](https://github.com/arthurnoerve), [oisann](https://github.com/oisann)
-* __Chinese__ by [hao-lee](https://github.com/hao-lee)
-* __Indonesian__ by [simplyeazy](https://github.com/simplyeazy)
-* __Romanian__ by [cdorin93](https://github.com/cdorin93)
-* __Russian__ by [schamberg97](https://github.com/schamberg97)
-* __Turkish__ by [cgrgrbz](https://github.com/cgrgrbz)
-* __Swedish__ by [martenj77](https://github.com/martenj77)
-* __Czech__ by [lunakv](https://github.com/lunakv)
-* __Portuguese__ by [matheusvanzan](https://github.com/matheusvanzan)
-* __Vietnamese__ by [JustHmmmm](https://github.com/justhmmmm)
-* __Greek__ by [thiodordelis](https://github.com/thiodordelis)
-* __Danish__ by [jmayntzhusen](https://github.com/jmayntzhusen)
-* __Arabic__ by [pop-eax](https://github.com/pop-eax)
-* __Catalan__ by [arthurnoerve](https://github.com/arthurnoerve)
-* __Lithuanian__ by [arthurnoerve](https://github.com/arthurnoerve)
-* __Dutch__ by [gkdp](https://github.com/gkdp)
-* __Polish__ by [filipolszewski](https://github.com/filipolszewski)
-* __Esperanto__ by [ebanDev](https://github.com/ebanDev)
+🟩 Up to date  🟧 Missing strings
 
-## 🎨 Setup custom color
+| Code | Flag | Language | Status | Translator |
+| :--: | :--: | :------: | :----: | :--------: |
+| `en` | 🇬🇧 | English | 🟩 | |
+| `de` | 🇩🇪 | German | 🟩 | |
+| `es` | 🇪🇸 | Spanish | 🟩 | [r1p](https://github.com/r1p) |
+| `fr` | 🇫🇷 | French | 🟧 | [robink](https://github.com/robink) |
+| `it` | 🇮🇹 | Italian | 🟧 | [fmaida](https://github.com/fmaida) |
+| `no` | 🇳🇴 | Norwegian | 🟧 | [arthurnoerve](https://github.com/arthurnoerve), [oisann](https://github.com/oisann), [Givemeurcookies](https://github.com/givemeurcookies) |
+| `zh` | 🇨🇳 | Chinese | 🟩 | [hao-lee](https://github.com/hao-lee), [izumiko](https://github.com/izumiko) |
+| `id` | 🇮🇩 | Indonesian | 🟧 | [simplyeazy](https://github.com/simplyeazy) |
+| `ro` | 🇷🇴 | Romanian | 🟧 | [cdorin93](https://github.com/cdorin93) |
+| `ru` | 🇷🇺 | Russian | 🟧 | [schamberg97](https://github.com/schamberg97) |
+| `tr` | 🇹🇷 | Turkish | 🟩 | [cgrgrbz](https://github.com/cgrgrbz), [electricalgorithm](https://github.com/electricalgorithm) |
+| `sv` | 🇸🇪 | Swedish | 🟧 | [martenj77](https://github.com/martenj77) |
+| `cs` | 🇨🇿 | Czech | 🟧 | [lunakv](https://github.com/lunakv) |
+| `pt` | 🇵🇹 | Portuguese | 🟧 | [matheusvanzan](https://github.com/matheusvanzan) |
+| `vi` | 🇻🇳 | Vietnamese | 🟧 | [JustHmmmm](https://github.com/justhmmmm) |
+| `el` | 🇬🇷 | Greek | 🟧 | [thiodordelis](https://github.com/thiodordelis) |
+| `dk` | 🇩🇰 | Danish | 🟧 | [jmayntzhusen](https://github.com/jmayntzhusen) |
+| `ar` | | Arabic | 🟧 | [pop-eax](https://github.com/pop-eax) |
+| `ca` | | Catalan | 🟧 | [arthurnoerve](https://github.com/arthurnoerve) |
+| `lt` | 🇱🇹 | Lithuanian | 🟧 | [arthurnoerve](https://github.com/arthurnoerve) |
+| `nl` | 🇳🇱 | Dutch | 🟧 | [gkdp](https://github.com/gkdp) |
+| `pl` | 🇵🇱 | Polish | 🟩 | [filipolszewski](https://github.com/filipolszewski), [MrBoombastic](https://github.com/mrboombastic) |
+| `eo` | | Esperanto | 🟧 | [ebanDev](https://github.com/ebanDev) |
+| `ga` | | Galego | 🟩 | [r1p](https://github.com/r1p) |
 
-1. Go to __Code injection__.  
-2. Add this to __Blog Header__:  
-````
-<style>
-  :root {
-    --color-primary: #D95736;
-    --color-primary-active: #BF4526;
-  }
-</style>
-````
+## Show subscribe / account button in navigation
+
+1. Go to `partials/navigation-meta.hbs`.
+2. Remove comments on line `24`and `34`.
 
 ## 🔠 Setup custom google fonts
 
@@ -63,7 +63,7 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 2. Choose __Embed__ and copy the `<link>` code.
 3. Go to __Code injection__.  
 4. Add this to __Blog Header__:  
-````
+````html
 <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 <style>
@@ -78,7 +78,7 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 
 1. Go to __Code injection__.  
 2. Add this to __Blog Header__:  
-````
+````html
 <script>var disqus = 'YOUR_DISQUS_SHORTNAME';</script>
 ````
 
@@ -88,7 +88,7 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 2. Choose __Add custom integration__, name it `Search` and choose __Create__. Copy the generated Content API Key.  
 3. Go to __Code injection__.  
 4. Add this to __Site Header__:  
-````
+````html
 <script>
   var gh_search_key = 'API_KEY';
   var gh_search_migration = 'v2';
@@ -97,21 +97,21 @@ If you like this theme, you can buy me a ~~coffee~~ [beer](https://paypal.me/zut
 ## ⚙️ Development
 
 Install [Grunt](https://gruntjs.com/getting-started/):
-
-	npm install -g grunt-cli
-
+````bash
+npm install -g grunt-cli
+````
 Install Grunt dependencies:
-
-	npm install
-
+````bash
+npm install
+````
 Build Grunt project:
-
-	grunt build
-
+````bash
+grunt build
+````
 The compress Grunt task packages the theme files into `dist/<theme-name>.zip`, which you can then upload to your site.
-
-	grunt compress
-
+````bash
+grunt compress
+````
 ## ⚖️ Copyright & License
 
 Copyright (C) 2015-2021 Peter Amende - Released under the [MIT License](https://github.com/zutrinken/attila/blob/master/LICENSE).
